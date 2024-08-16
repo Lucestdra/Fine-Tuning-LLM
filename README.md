@@ -17,3 +17,9 @@ This repository contains a Python implementation for fine-tuning a Llama languag
 - Rank (r): 64
 - LoRA Alpha: 16
 - LoRA Dropout: 0.1
+
+
+You can install the necessary packages directly:
+
+pip install -q accelerate==0.21.0 peft==0.4.0 bitsandbytes==0.40.2 transformers==4.31.0 trl==0.4.7
+pip install huggingface_hub
