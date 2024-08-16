@@ -7,3 +7,13 @@ This repository contains a Python implementation for fine-tuning a Llama languag
 - Custom Training Pipeline: Built with Hugging Face's transformers and trl libraries, providing a streamlined process for training and inference.
 - Medical Dataset: Fine-tune the model on a dataset of medical terms, making it well-suited for applications in the healthcare domain.
 - Text Generation: Leverage the fine-tuned model for generating coherent and contextually relevant text based on user prompts.
+
+
+# Model Details
+- Model: Llama2
+- Dataset: Wiki Medical Terms
+- Quantization: 4-bit precision with NF4 quantization type.
+- LoRA Configuration:
+- Rank (r): 64
+- LoRA Alpha: 16
+- LoRA Dropout: 0.1
